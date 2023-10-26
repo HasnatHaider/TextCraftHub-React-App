@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Black+Ops+One&family=Dancing+Script:wght@500&family=Dosis:wght@500&family=Handjet&family=Josefin+Sans:wght@300&family=Onest:wght@500&family=PT+Sans+Narrow&family=Poppins:wght@300;400;500&family=Roboto:wght@900&display=swap');
+
+body {
+  font-family: 'Onest', sans-serif!important;
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+@media (min-width: 768px){
+  .news-input{
+      width: 50%;
+  }
+}
+
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, -0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.navbar-nav a {
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 50px !important;
+  background-color: none !important;
+}
+
+.navbar-nav a:hover {
+  border-radius: 50px;
+  background-color: rgba(144, 145, 145, 0.61) !important;
+  transition: transform 0.25s all ease !important;
+}
+
+.container {
+  transition: all 0.3s ease 0s;
+}
+
+.switchInput{
+  width: 2.5em!important;
+  margin-left: -0.5em!important;
+  height: 1.4em;
+}
+
+.form-check-input {
+  margin-top: 0.15em!important;
+  border: 2px solid rgba(0,0,0,.25);
+}
+
+.featureSection{
+  margin-top: 7.5rem;
+  margin-bottom: 4rem;
+}
+
+.featureCard{
+  background-color: #00000012;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+/* .textAreaBox{
+  position: relative;
+} */
+
+.textAreaCss {
+  resize: none;
+  margin-right: 1rem !important;
+  padding: 3.975rem 1rem !important;
+  border-radius: 10px;
+  border: none;
+  background-color: ghostwhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, -0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.textAreaCss2 {
+  resize: none;
+  padding: 3.975rem 1rem !important;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, -0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+#disableTextArea {
+  box-sizing: border-box;
+  /* background-color: ghostwhite!important; */
+}
+
+.textAreaBox span{
+  top: 2.5rem;
+  right: 1rem;
+}
+
+.card {
+  width: 18rem;
+}
+
+.textAlert {
+  position: fixed;
+  top: 34rem;
+  right: 1rem;
+  width: 20rem;
+}
+
+.heroSection {
+  letter-spacing: 0.2rem;
+}
+
+.heroSectionBtn {
+  letter-spacing: 0.1rem;
+}
+
+.textImage {
+  height: 20vh;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: #34495E !important;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #2a3847 !important
+}
+
+.contentSummerySection{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.contentSummeryInside{
+  padding: 15px 15px 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, -0.0), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+}
+
+.contentSummery{
+  margin-bottom: 0.3rem;
+}
+
+.contentSummeryHeading{
+  display: flex;
+  flex: auto;
+}
+
+.contentSummerySpan{
+  padding-right: 4rem;
+}
+
+.footer{
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.navLink1{
+  padding-top: 0px;
+}
